@@ -10,16 +10,16 @@
 <body>
     <form method="get" action="action.php" name="validTeszt" onsubmit = "return validateForm()">
         <label for="kNev">Keresztnév: </label>
-        <input type="text" name="kNev" id="" pattern="^[A-Z]{1,}[a-z ]{3,}">
+        <input type="text" name="kNev" id="kNev" pattern="^[A-Z]{1,}[a-z ]{3,}">
         <br>
         <label for="vNev">Vezetéknév: </label>
-        <input type="text" name="vNev" id="">
+        <input type="text" name="vNev" id="vNev">
         <br>
         <label for="jelszo1">Jelszó: </label>
-        <input type="password" name="jelszo1" id="">
+        <input type="password" name="jelszo1" id="jelszo1">
         <br>
         <label for="jelszo2">Megerősítés: </label>
-        <input type="password" name="jelszo2" id="">
+        <input type="password" name="jelszo2" id="jelszo2">
         <br>
         <input type="submit" value="Küldés">
     </form>
