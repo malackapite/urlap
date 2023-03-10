@@ -11,7 +11,7 @@ function validateForm() {
         alert("A mező kitöltése kötelező!");
         return false;
     }
-    else if(jelszo1!==jelszo2){
+    else if(jelszo1!==jelszo2.value){
         alert("A jelszónak egyeznie kell!");
         jelszo2.focus();
         return false;
