@@ -16,4 +16,5 @@ function validateForm() {
         jelszo2.focus();
         return false;
     }
+    kuld(); 
 }
